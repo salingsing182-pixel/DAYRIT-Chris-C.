@@ -1,4 +1,4 @@
-const URL = 'file.txt';
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwMOo6nFBFs5CWF3uPIuxwCbau8PZiPlKHqlv6pNcGoahZykKpx_kOXU_TPlNQyruVA/exec";
 
 let records = [];
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Directory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Directory Records</h2>
+
+<div class="filters">
+  <select id="age" onchange="filter()">
+    <option value="all">All Ages</option>
+    <option>18-20</option>
+    <option>21-25</option>
+    <option>26-30</option>
+    <option>31-35</option>
+    <option>36-40</option>
+    <option>41-45</option>
+    <option>46-50</option>
+    <option>51-55</option>
+    <option>56-60</option>
+    <option>61+</option>
+  </select>
+
+  <select id="profession" onchange="filter()">
+    <option value="all">All Professions</option>
+  </select>
+
+  <select id="gender" onchange="filter()">
+    <option value="all">All Genders</option>
+  </select>
+</div>
+
+<div id="results" class="grid">Loading...</div>
+
+<script src="script.js"></script>
+</body>
+</html>
